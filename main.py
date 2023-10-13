@@ -77,3 +77,5 @@ top_characters.sort(key=lambda x: x[1], reverse=True)
 print("\n5. Los 5 personajes con mayores apariciones:")
 for i, (name, episode_count) in enumerate(top_characters[:5]):
     print(f"{i+1}. {name} - Apariciones: {episode_count}")
+    
+    print("")
